@@ -1,0 +1,60 @@
+
+{% extends "base.html" %}
+
+{% block title %}Security Scanner - PhishGuard{% endblock %}
+
+{% block content %}
+
+<section class="scanner-section">
+    <div class="scanner-heading">
+        <p class="hero-tag">PHISHGUARD PROTECTION</p>
+        <h1>Security <span>Scanner</span></h1>
+        <p>Check suspicious messages, website links and mobile numbers.</p>
+    </div>
+
+    <div class="scanner-container">
+
+        <div class="scanner-tabs">
+            <button class="scanner-tab active" data-type="message">Message</button>
+            <button class="scanner-tab" data-type="url">Website URL</button>
+            <button class="scanner-tab" data-type="mobile">Mobile Number</button>
+        </div>
+
+        <form id="scanForm">
+            <input type="hidden" id="scanType" value="message">
+
+            <div class="scan-input-group" id="messageGroup">
+                <label for="scanInput">Enter Message</label>
+                <textarea id="scanInput" placeholder="Paste your suspicious message here..."></textarea>
+            </div>
+
+            <div class="scan-input-group" id="urlGroup" hidden>
+                <label for="urlInput">Enter Website URL</label>
+                <input type="text" id="urlInput" placeholder="https://example.com">
+            </div>
+
+            <div class="scan-input-group" id="mobileGroup" hidden>
+                <label for="mobileInput">Enter Mobile Number</label>
+                <input type="text" id="mobileInput" placeholder="Enter 10 digit mobile number">
+            </div>
+
+            <button type="submit" class="primary-btn scan-submit">
+                Check Now →
+            </button>
+        </form>
+
+        <div id="scanResult" class="scan-result" hidden>
+            <h2 id="resultTitle"></h2>
+            <p id="resultMessage"></p>
+            <div id="resultDetails"></div>
+        </div>
+
+        <p class="scanner-note">
+            Note: Results are automated warnings, not a guarantee that a website,
+            message or number is safe or fraudulent.
+        </p>
+
+    </div>
+</section>
+
+{% endblock %}

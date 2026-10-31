@@ -1,0 +1,64 @@
+
+{% extends "base.html" %}
+
+{% block title %}Home - PhishGuard{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+    <div class="hero-content">
+        <p class="hero-tag">YOUR DIGITAL SAFETY PARTNER</p>
+
+        <h1>
+            Stay Safe From <br>
+            <span>Online Frauds</span>
+        </h1>
+
+        <p class="hero-description">
+            PhishGuard helps you identify suspicious messages,
+            links and phone numbers before they become a threat.
+        </p>
+
+        <a href="{{ url_for('scan') }}" class="primary-btn">
+            Start Security Scan →
+        </a>
+
+        <p class="hero-note">
+            Protect yourself. Think before you click.
+        </p>
+    </div>
+
+    <div class="hero-card">
+        <div class="shield-icon">🛡️</div>
+        <h2>PhishGuard Security</h2>
+        <p>Your online safety starts here.</p>
+
+        <div class="security-status">
+            <span class="status-dot"></span>
+            Security Scanner Ready
+        </div>
+    </div>
+</section>
+
+<section class="home-features">
+    <h2>What Can You Check?</h2>
+
+    <div class="feature-grid">
+        <div class="feature-card">
+            <h3>🔗 URL Scanner</h3>
+            <p>Check suspicious website links.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>✉️ Message Scanner</h3>
+            <p>Identify suspicious messages.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>📱 Mobile Checker</h3>
+            <p>Check mobile number format and warning signs.</p>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
