@@ -24,26 +24,14 @@ This project was developed as a student project to explore web development and b
 
 ## 📸 Screenshots
 
-### Homepage
-![PhishGuard Homepage](screenshots/homepage.png)
+<img width="1341" height="643" alt="Screenshot 2026-10-31 164841" src="https://github.com/user-attachments/assets/59f1b356-b682-4a2a-9369-881489e75776" />
+<img width="1348" height="642" alt="Screenshot 2026-10-31 164734" src="https://github.com/user-attachments/assets/3b9f32be-2a88-4591-a845-8292bc136a2f" />
+<img width="1358" height="638" alt="Screenshot 2026-10-31 164659" src="https://github.com/user-attachments/assets/0b6e5559-193d-42da-be81-8187ecb9f5d1" />
+<img width="1348" height="642" alt="Screenshot 2026-10-31 164734" src="https://github.com/user-attachments/assets/ee5f985e-3940-4c14-be2d-23a01122756e" />
 
-### About Page
-![About Page](screenshots/about.png)
 
-### Features Page
-![Features Page](screenshots/features.png)
 
-### Message Checker
-![Message Checker](screenshots/scan-message.png)
 
-### URL Checker
-![URL Checker](screenshots/scan-url.png)
-
-### Mobile Number Checker
-![Mobile Checker](screenshots/scan-mobile.png)
-
-### Contact Page
-![Contact Page](screenshots/contact.png)
 
 ## 🛠️ Technologies Used
 
